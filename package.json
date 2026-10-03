@@ -1,0 +1,7 @@
+{
+  "name": "morrow-discord",
+  "version": "0.4.1",
+  "private": true,
+  "description": "An appearance-first Discord browser extension",
+  "scripts": {"test": "node --test tests/engine.test.cjs", "preview": "node scripts/preview.cjs"}
+}

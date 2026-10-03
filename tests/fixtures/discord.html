@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="theme-dark"><head><meta charset="utf-8"><title>Discord layout fixture</title>
+<style>
+* { box-sizing: border-box; } body { margin: 0; font: 16px Arial; color: #eee; }
+#app-mount, .app_test, .base_test { min-height: 100vh; background: #111; }
+.base_test { display: grid; grid-template-columns: 64px 220px 1fr 220px; grid-template-rows: 45px 1fr; }
+.bar_test { grid-column: 1 / -1; background: #111; padding: 12px 20px; }
+.guilds_test { background: #222; padding: 15px; }
+.sidebar_test { background: #333; padding: 20px; }
+.sidebarList_test { background: #333; height: 100%; }
+.privateChannels_test, .scroller_test { background: #333; }
+.chat_test { background: #222; min-width: 0; }
+.chatContent_test { min-height: calc(100vh - 45px); display: flex; flex-direction: column; padding: 20px; background: #222; }
+.messagesWrapper_test { flex: 1; background: #333; }
+.userPanel_test { background: #222; padding: 20px; }
+.userPanel_test .outer_test, .userPanel_test .inner_test { background: #333; min-height: 80%; }
+.membersWrap_test { background: #333; }
+.members_test { background: var(--background-primary); }
+.embedFull_test { margin-top: 40px; padding: 20px; border-radius: 8px; }
+.channelTextArea_test { padding: 20px; }
+.scroller_test { min-height: 100%; }
+#overlay { position: fixed; top: 60px; right: 20px; padding: 20px; width: 240px; }
+</style></head><body>
+<div id="app-mount"><div class="app_test"><div class="base_test">
+  <header class="bar_test">Discord layout fixture</header>
+  <nav class="guilds_test"><div class="scroller_test">●<br><br>＋</div></nav>
+  <aside class="sidebar_test"><div class="sidebarList_test"><div class="privateChannels_test"><div class="scroller_test"><a id="nav-test" href="#friends">Friends</a><br><br>Direct Messages<br><br>General</div></div></div></aside>
+  <section class="chat_test"><main class="chatContent_test"><div class="messagesWrapper_test"><div class="scroller_test"><div data-list-id="chat-messages"><div class="messageContent_test">The wallpaper continues behind every column.</div><div class="embedFull_test">Message embeds retain a readable background.</div></div></div></div><div class="channelTextArea_test"><button id="send-test" type="button">Test click</button> &nbsp; Message #general</div></main></section>
+  <aside class="userPanel_test"><div class="outer_test"><div class="inner_test"><strong>Profile sidebar</strong><div class="membersWrap_test"><div class="members_test theme-dark">Member list</div></div></div></div></aside>
+</div></div><div id="overlay" role="dialog" hidden><div class="content_test">Dialog remains readable.</div></div></div>
+</body></html>
