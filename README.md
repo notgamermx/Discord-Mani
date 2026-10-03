@@ -2,6 +2,16 @@
 
 **Your Discord, your way.** A standalone Chrome / Edge extension for customizing Discord on the web. Built with Manifest V3 and plain HTML, CSS, and JavaScript. No build step or third-party runtime dependencies.
 
+![Morrow Customization Studio](assets/theme-studio.png)
+
+## Screenshots & Demo
+
+| Theme Studio & Live Preview | Video & Image Wallpapers | Controls & Custom CSS |
+| :---: | :---: | :---: |
+| ![Theme Studio](assets/theme-studio.png) | ![Wallpaper Settings](assets/wallpaper-settings.png) | ![Appearance & Custom CSS](assets/appearance-css.png) |
+
+> 🎬 **[Watch Screen Recording / Video Demo](assets/demo.mp4)**
+
 ## Install locally
 
 1. Keep this folder somewhere permanent, or extract `release/morrow-0.4.1.zip` first.
