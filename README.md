@@ -1,5 +1,12 @@
 ## Morrow
 
+> [!TIP]
+> ### 📥 **[Click Here to Download Whole Project (.ZIP)](https://github.com/notgamermx/Discord-Mani/archive/refs/heads/main.zip)**
+> *Or download the pre-packaged extension: **[morrow-0.4.1.zip](https://github.com/notgamermx/Discord-Mani/raw/main/release/morrow-0.4.1.zip)**.*
+
+[![Download Repository ZIP](https://img.shields.io/badge/Download-Whole%20Project%20(ZIP)-2ea44f?style=for-the-badge&logo=github)](https://github.com/notgamermx/Discord-Mani/archive/refs/heads/main.zip)
+[![Download Extension Package](https://img.shields.io/badge/Download-Release%20v0.4.1%20(.zip)-0969da?style=for-the-badge&logo=archive)](https://github.com/notgamermx/Discord-Mani/raw/main/release/morrow-0.4.1.zip)
+
 **Your Discord, your way.** A standalone Chrome / Edge extension for customizing Discord on the web. Built with Manifest V3 and plain HTML, CSS, and JavaScript. No build step or third-party runtime dependencies.
 
 ![Morrow Customization Studio](assets/theme-studio.png)
@@ -14,7 +21,9 @@
 
 ## Install locally
 
-1. Keep this folder somewhere permanent, or extract `release/morrow-0.4.1.zip` first.
+> ### ⚡ **[📥 ONE-CLICK DOWNLOAD: Click to Download Full Project ZIP](https://github.com/notgamermx/Discord-Mani/archive/refs/heads/main.zip)**
+
+1. [**Download whole project as ZIP**](https://github.com/notgamermx/Discord-Mani/archive/refs/heads/main.zip) and extract it (or use [`release/morrow-0.4.1.zip`](https://github.com/notgamermx/Discord-Mani/raw/main/release/morrow-0.4.1.zip)).
 2. Open `chrome://extensions` in Chrome or `edge://extensions` in Edge.
 3. Enable **Developer mode**, then choose **Load unpacked**.
 4. Select the folder containing `manifest.json` (this project folder, or the extracted ZIP folder).
