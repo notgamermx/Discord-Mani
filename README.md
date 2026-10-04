@@ -1,4 +1,4 @@
-# Morrow
+## Morrow
 
 **Your Discord, your way.** A standalone Chrome / Edge extension for customizing Discord on the web. Built with Manifest V3 and plain HTML, CSS, and JavaScript. No build step or third-party runtime dependencies.
 
